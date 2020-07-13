@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "9fcba0da772b447b28d07871b8554081",
+    "name" : "pyrunner",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ]
+}

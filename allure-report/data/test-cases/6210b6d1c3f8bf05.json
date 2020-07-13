@@ -1,0 +1,164 @@
+{
+  "uid" : "6210b6d1c3f8bf05",
+  "name" : "test_x",
+  "fullName" : "pyrunner.test_pytest.TestClass#test_x",
+  "historyId" : "45f42406103074b644bdb53f071a6c46",
+  "time" : {
+    "start" : 1594571907331,
+    "stop" : 1594571907331,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'TestDemo' object has no attribute 'fun_1'",
+  "statusTrace" : "self = <pyrunner.test_pytest.TestClass object at 0x1047e1460>\n\n    def test_x(self):\n        demo = TestDemo()\n>       demo.fun_1()\nE       AttributeError: 'TestDemo' object has no attribute 'fun_1'\n\npyrunner/test_pytest.py:42: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594571907313,
+      "stop" : 1594571907313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1594571907330,
+      "stop" : 1594571907330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1594571907309,
+      "stop" : 1594571907309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'TestDemo' object has no attribute 'fun_1'",
+    "statusTrace" : "self = <pyrunner.test_pytest.TestClass object at 0x1047e1460>\n\n    def test_x(self):\n        demo = TestDemo()\n>       demo.fun_1()\nE       AttributeError: 'TestDemo' object has no attribute 'fun_1'\n\npyrunner/test_pytest.py:42: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9452e7740d1eb131",
+      "name" : "stdout",
+      "source" : "9452e7740d1eb131.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594571907339,
+      "stop" : 1594571907339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1594571907334,
+      "stop" : 1594571907334,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1594571907463,
+      "stop" : 1594571907463,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pyrunner"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "192.168.2.101"
+  }, {
+    "name" : "thread",
+    "value" : "4118-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pyrunner.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6210b6d1c3f8bf05.json",
+  "parameterValues" : [ ]
+}

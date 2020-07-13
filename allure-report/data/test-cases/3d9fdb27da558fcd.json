@@ -1,0 +1,179 @@
+{
+  "uid" : "3d9fdb27da558fcd",
+  "name" : "test_sum",
+  "fullName" : "pyrunner.test_pytest.TestDemo#test_sum",
+  "historyId" : "d6f35e91567ced98bf1c69263bb18b77",
+  "time" : {
+    "start" : 1594572844257,
+    "stop" : 1594572844257,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: setUp() takes 0 positional arguments but 1 was given",
+  "statusTrace" : "self = <unittest.case._Outcome object at 0x107953fa0>, test_case = <unit.test_demo.TestDemo testMethod=test_sum>, isTest = False\n\n    @contextlib.contextmanager\n    def testPartExecutor(self, test_case, isTest=False):\n        old_success = self.success\n        self.success = True\n        try:\n>           yield\n\n/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py:672: in run\n    self._callSetUp()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <unit.test_demo.TestDemo testMethod=test_sum>\n\n    def _callSetUp(self):\n>       self.setUp()\nE       TypeError: setUp() takes 0 positional arguments but 1 was given\n\n/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py:630: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1594572844163,
+      "stop" : 1594572844164,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1594572844257,
+      "stop" : 1594572844257,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1594572844197,
+      "stop" : 1594572844197,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: setUp() takes 0 positional arguments but 1 was given",
+    "statusTrace" : "self = <unittest.case._Outcome object at 0x107953fa0>, test_case = <unit.test_demo.TestDemo testMethod=test_sum>, isTest = False\n\n    @contextlib.contextmanager\n    def testPartExecutor(self, test_case, isTest=False):\n        old_success = self.success\n        self.success = True\n        try:\n>           yield\n\n/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py:672: in run\n    self._callSetUp()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <unit.test_demo.TestDemo testMethod=test_sum>\n\n    def _callSetUp(self):\n>       self.setUp()\nE       TypeError: setUp() takes 0 positional arguments but 1 was given\n\n/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py:630: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f89e75fe1eba757",
+      "name" : "stdout",
+      "source" : "5f89e75fe1eba757.txt",
+      "type" : "text/plain",
+      "size" : 14
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1594572844309,
+      "stop" : 1594572844309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1594572844308,
+      "stop" : 1594572844308,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1594572844309,
+      "stop" : 1594572844309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pyrunner"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDemo"
+  }, {
+    "name" : "host",
+    "value" : "192.168.2.101"
+  }, {
+    "name" : "thread",
+    "value" : "4627-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pyrunner.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7ad9fdd7e75fbc24",
+      "status" : "broken",
+      "statusDetails" : "TypeError: setUp() takes 0 positional arguments but 1 was given",
+      "time" : {
+        "start" : 1594571907401,
+        "stop" : 1594571907401,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d9fdb27da558fcd.json",
+  "parameterValues" : [ ]
+}

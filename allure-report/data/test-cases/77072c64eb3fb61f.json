@@ -1,0 +1,61 @@
+{
+  "uid" : "77072c64eb3fb61f",
+  "name" : "test_div_zero",
+  "fullName" : "pyrunner.test_div#test_div_zero",
+  "historyId" : "61f45a9f974fae2f3043c3d78e0a7843",
+  "time" : {
+    "start" : 1594572844160,
+    "stop" : 1594572844161,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pyrunner"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "host",
+    "value" : "192.168.2.101"
+  }, {
+    "name" : "thread",
+    "value" : "4627-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pyrunner.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "851fb22e9a035a20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594571907306,
+        "stop" : 1594571907306,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77072c64eb3fb61f.json",
+  "parameterValues" : [ ]
+}

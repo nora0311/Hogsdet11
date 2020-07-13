@@ -1,0 +1,63 @@
+{
+  "uid" : "74dc8429097bcfd3",
+  "name" : "test_div_int_param[100-200-0.5]",
+  "fullName" : "pyrunner.test_div#test_div_int_param",
+  "historyId" : "e08781f47d5113b2b89a8270fc1783fe",
+  "time" : {
+    "start" : 1594571907233,
+    "stop" : 1594571907233,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "happy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pyrunner"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "host",
+    "value" : "192.168.2.101"
+  }, {
+    "name" : "thread",
+    "value" : "4118-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pyrunner.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expection",
+    "value" : "0.5"
+  }, {
+    "name" : "number1",
+    "value" : "100"
+  }, {
+    "name" : "number2",
+    "value" : "200"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "happy" ]
+  },
+  "source" : "74dc8429097bcfd3.json",
+  "parameterValues" : [ "0.5", "100", "200" ]
+}

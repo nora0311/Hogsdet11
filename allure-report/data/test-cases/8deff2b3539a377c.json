@@ -1,0 +1,54 @@
+{
+  "uid" : "8deff2b3539a377c",
+  "name" : "test_div_int",
+  "fullName" : "pyrunner.test_div#test_div_int",
+  "historyId" : "f9087fce56012e5aa98fecfa0b31cece",
+  "time" : {
+    "start" : 1594571907229,
+    "stop" : 1594571907230,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "happy"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pyrunner"
+  }, {
+    "name" : "suite",
+    "value" : "test_div"
+  }, {
+    "name" : "host",
+    "value" : "192.168.2.101"
+  }, {
+    "name" : "thread",
+    "value" : "4118-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pyrunner.test_div"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "happy" ]
+  },
+  "source" : "8deff2b3539a377c.json",
+  "parameterValues" : [ ]
+}

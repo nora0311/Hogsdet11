@@ -1,0 +1,179 @@
+{
+  "uid" : "81aab2642ed27e1d",
+  "name" : "test_two",
+  "fullName" : "pyrunner.test_pytest.TestClass#test_two",
+  "historyId" : "eee204faf163f7e40136f155778226ae",
+  "time" : {
+    "start" : 1594572844174,
+    "stop" : 1594572844174,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('hello', 'hello')",
+  "statusTrace" : "self = <pyrunner.test_pytest.TestClass object at 0x1078ce7f0>\n\n    def test_two(self):\n        x = \"hello\"\n>       assert hasattr(x, \"hello\")\nE       AssertionError: assert False\nE        +  where False = hasattr('hello', 'hello')\n\npyrunner/test_pytest.py:38: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_function",
+    "time" : {
+      "start" : 1594572844173,
+      "stop" : 1594572844173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1594572844163,
+      "stop" : 1594572844164,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1594572844169,
+      "stop" : 1594572844169,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('hello', 'hello')",
+    "statusTrace" : "self = <pyrunner.test_pytest.TestClass object at 0x1078ce7f0>\n\n    def test_two(self):\n        x = \"hello\"\n>       assert hasattr(x, \"hello\")\nE       AssertionError: assert False\nE        +  where False = hasattr('hello', 'hello')\n\npyrunner/test_pytest.py:38: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7230d401dfb7819f",
+      "name" : "stdout",
+      "source" : "7230d401dfb7819f.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_function::0",
+    "time" : {
+      "start" : 1594572844182,
+      "stop" : 1594572844182,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1594572844309,
+      "stop" : 1594572844309,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1594572844195,
+      "stop" : 1594572844195,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pyrunner"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "192.168.2.101"
+  }, {
+    "name" : "thread",
+    "value" : "4627-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pyrunner.test_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "31a115c0c5513b93",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = hasattr('hello', 'hello')",
+      "time" : {
+        "start" : 1594571907319,
+        "stop" : 1594571907319,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "81aab2642ed27e1d.json",
+  "parameterValues" : [ ]
+}
